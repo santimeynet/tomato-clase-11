@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+}
+
+h3{
+    color: blue;
+    margin: 0;
+    bottom: 0;
+}
+
+h4{
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+    z-index: 3;
+}
+
+header{
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    margin-right: 2rem;
+}
+header nav ul li a{
+    color: rgb(16, 22, 58);
+    
+}
+
+body.imagen{
+    background-image: url(../img/fotito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main h2.subtitulo{
+    color: brown;
+    text-align: center;
+    margin-top: 250px;
+}
+
+body main div img.oferta1{
+    width: 45%;
+    height: auto;
+    display: inline;
+}
+
+body main div img.oferta2{
+    width: 45%;
+    height: auto;
+    display: inline;
+}
+
+body main div img.oferta3{
+    width: 45%;
+    height: auto;
+    display: inline;
+}
+
+body footer.footer{
+    position: absolute;
+}
+
+body main div.ofertas-div1{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+body main div p.ofertas-lorem1{
+    text-align: center;
+    font-size: medium;
+    margin-top: 150px;
+    color: whitesmoke;
+}
+
+body main div.ofertas-div2{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+body main div p.ofertas-lorem2{
+    text-align: center;
+    font-size: medium;
+    margin-top: 150px;
+    color: whitesmoke;
+}
+
+body main div.ofertas-div3{
+    display: flex;
+}
+
+body main div p.ofertas-lorem3{
+    text-align: center;
+    font-size: medium;
+    margin-top: 150px;
+    color: whitesmoke;
+}
+
+body main h2.ofertas-h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+body main h2.cabanias-h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+body footer.cabanias-footer{
+    margin-top: 100px;
+  }
+
+body main.contacto-main{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+  }
+
+body footer.contacto-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+body.contacto-img{
+    background-image: url(../img/cabanias1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+body main div.contacto-divcontenedor{
+    position: relative;
+    margin-bottom: 10px;
+    right: 200px;
+    display: inline-block;
+    right: 300px;
+    margin-top: 50px;
+}
+
+body main div form div.contacto-nombre{
+    margin-bottom: 25px;
+}
+
+body main div form div.contacto-email{
+    margin-bottom: 25px;
+}
+
+body main div form div.contacto-numero{
+    margin-bottom: 25px;
+}
+
+body main div form div.contacto-consulta{
+    margin-bottom: 10px;
+    margin-left: 214px;
+    width: 100%;
+}
+
+body header nav img.img-usuario{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+body main div form div input.contacto-input-consulta{
+    width: 600px;
+    height: 100px;
+}
+
+body main div form div.contacto-datos{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 500px;
+    background-color: rgb(57, 81, 124);
+    width: 420px;
+    height: 120px;
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body main div.contacto-maps{
+    bottom: 500px;
+    margin-right: 170px;
+}
+
+body main.reservas-main{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 400px;
+    text-align: center;
+    background-image: url(../img/cabanias1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body main div.reservas-input{
+    position: absolute;
+    width: 800px;
+    display: flex;
+    margin-right: 1000px;
+}
+
+body.ofertas-body{
+    background-color: rgb(28, 28, 75);
+}
+
+body.cabanias-body{
+    background-color: brown;
+}
+
+#carousel-uno{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#carousel-dos{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#carousel-tres{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#carousel-cuatro{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    max-width: 100%;
+    height: auto;
+}
+
+#grid-cabanias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5rem;
+}
