@@ -40,14 +40,14 @@ header nav ul{
     display: flex;
     gap: 40px;
 }
-
+/* version dos */ 
 header nav ul li{
     color: whitesmoke;
     font-size: 22px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     position: sticky;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 header nav ul li a{
     color: rgb(16, 22, 58);
